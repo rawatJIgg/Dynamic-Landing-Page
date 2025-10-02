@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fb;
+    text-align: center;
+}
+header {
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+    color: rgb(255, 255, 255);
+    padding: 50px 20px;
+    background-size: cover;
+    background-position: center;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+header p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+.action-button{
+    background-color: #094bf3;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.action-button:hover{
+    background-color: #063bbd;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.feature{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 200px;
+    transition: transform 0.3s ease;
+    box-shadow: 0.3sec;
+}
+.feature:hover{
+    transform: translateY(-10px);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}   
